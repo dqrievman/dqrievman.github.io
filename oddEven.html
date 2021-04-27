@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		
+		#mj{
+			width:200px;
+			height:200px;
+			border:1px solid black;
+		}
+	</style>
+</head>
+<body>
+
+	<center>
+<div id="mj"></div>
+</center>
+
+<script type="text/javascript">
+	
+
+	var counter = 0;
+
+	var mj = document.getElementById('mj');
+	mj.addEventListener(
+		"click", function(){
+
+			counter = counter + 1;
+			console.log(counter)
+			console.log("i'm even!")
+
+
+
+//can you figure out how to make it (you're going to have to google) also print out "I'm even!" when it's even and "I'm odd" when it's odd?
+
+		}
+
+		)
+</script>
+
+<!-- goal: make a div so that when you click on it, it has one background image and then when you click on it again, it has another background image.
+
+	How to make this:
+
+	1. make a div, styled it so we can see it.
+	2. make a variable in JS that points to that div
+	3. add an event listener that's listening for a click
+	4. Running a function that's a) counting the clicks BY.... ___________
+
+	b) if the clicks are even (the definition of which is if the click number divided by 2 and the remainder is zero THEN add this image or toggle some css)
+
+	c) if else or if the clicks of odd (definition of odd: if the click number divided by 2 leaves a remainder of 1) then add the other image.
+
+-->
+
+
+
+
+
+</body>
+</html>
