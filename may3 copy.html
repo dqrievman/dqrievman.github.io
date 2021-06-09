@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		
+		#daisy{
+			width: 400px;
+		height: 700px;
+		}
+	</style>
+</head>
+<body>
+
+<div id = "daisy">  </div>
+
+<script type="text/javascript">
+	var cupcakes = ["red velvet","chocolate","vanilla"];
+
+	var life = Math.round(Math.random()*3);
+
+	console.log(life);
+	console.log(cupcakes[0]);
+
+	if (life > 2){
+
+		document.body.style.backgroundImage = "url(https://therecipecritic.com/wp-content/uploads/2017/01/RedVelvetCupcakes2.jpg)";
+
+
+
+	}else if (life < 3){
+
+		document.body.style.backgroundImage = "url(https://cdn.sallysbakingaddiction.com/wp-content/uploads/2017/06/moist-chocolate-cupcakes-5.jpg)"
+	}else if (life = 2){
+
+		document.body.style.backgroundImage = "url(https://www.lifeloveandsugar.com/wp-content/uploads/2017/01/Moist-Vanilla-Cupcakes2.jpg)"
+	}
+
+
+ 
+
+</script>
+
+
+
+
+</body>
+</html>
